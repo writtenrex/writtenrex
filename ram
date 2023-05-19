@@ -1,0 +1,67 @@
+
+import turtle
+
+# Set up the turtle
+screen = turtle.Screen()
+screen.title("Lord Ram")
+screen.bgcolor("white")
+turtle.speed(3)
+
+# Draw the body of Lord Ram
+turtle.penup()
+turtle.goto(-50, 0)
+turtle.pendown()
+turtle.color("blue")
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(100)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(90)
+
+# Draw the head of Lord Ram
+turtle.penup()
+turtle.goto(-25, 50)
+turtle.pendown()
+turtle.color("brown")
+turtle.circle(25)
+
+# Draw the eyes of Lord Ram
+turtle.penup()
+turtle.goto(-35, 60)
+turtle.pendown()
+turtle.color("black")
+turtle.dot(5)
+turtle.penup()
+turtle.goto(-15, 60)
+turtle.pendown()
+turtle.dot(5)
+
+# Draw the arms of Lord Ram
+turtle.penup()
+turtle.goto(-50, 0)
+turtle.pendown()
+turtle.color("blue")
+turtle.right(45)
+turtle.forward(50)
+turtle.right(90)
+turtle.forward(50)
+turtle.right(45)
+
+turtle.penup()
+turtle.goto(50, 0)
+turtle.pendown()
+turtle.color("blue")
+turtle.left(45)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(45)
+
+# Hide the turtle
+turtle.hideturtle()
+
+# Exit on click
+turtle.exitonclick()
